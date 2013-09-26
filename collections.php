@@ -106,7 +106,7 @@ class OutputValues extends Functions
 	else $token = $_SESSION['token'];
 
 	echo "<br /> <b>Output: </b>";
-
+	
 	if(!isset($_POST['token']))	$_POST['token']='';
 
 	if($_POST['token']==$_SESSION['token'])
