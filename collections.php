@@ -151,7 +151,7 @@ class OutputValues extends Functions
 				<br /> <i>* Setul <b>Set2</b> contine functiile: "multiply_by_third_part","cube","add_random","pow_random" </i>
 				<br /> <i>* Setul <b>Set3</b> contine functiile: "add_three","divide_by_two","multiply_by_third_part","add_random" </i>
 		</label>
-
+		
 		<br />
 		<input type="hidden" name="token" value="<?php echo $token; ?>" />
 		<input type="submit" value="Submit" />
