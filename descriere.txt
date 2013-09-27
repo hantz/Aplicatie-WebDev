@@ -1,12 +1,18 @@
 Scriptul este alcatuit din doua clase si o sectiune prin care se realizeaza interactiunea cu userul (input/output).
 
-Clasa "Functions": contine colectia arbitrara de functii care primesc ca parametru numarul intreg "i" si intorc o valoare intreaga, in urma prelucrarii acestuia. Metodele si proprietatile acestei clase nu pot fi accesate din exterior.
+Clasa "Functions": contine colectia arbitrara de functii care primesc ca parametru numarul intreg "i"
+si intorc o valoare intreaga, in urma prelucrarii acestuia. 
+Metodele si proprietatile acestei clase nu pot fi accesate din exterior.
 
-Clasa "OutputValues": are acces la metodele clasei "Functions" (prin mostenire) si contine metoda publica "get()" ce primeste ca parametri: 1) numarul intreg "i" si 2) setul de functii ce vor prelucra valoarea introdusa "i" si vor returna colectia de output-uri ceruta.
+Clasa "OutputValues": are acces la metodele clasei "Functions" (prin mostenire) si contine metoda publica "get()"
+ce primeste ca parametri: 1) numarul intreg "i" si 2) setul de functii ce vor prelucra valoarea introdusa "i"
+si vor returna colectia de output-uri ceruta.
 
-Formularul pentru input dispune de un camp <select> prin care userul poate sa aleaga ce set de functii doreste sa aplice valorii introduse (seturile sunt descrise sub formular).
+Formularul pentru input dispune de un camp <select> prin care userul poate sa aleaga
+ce set de functii doreste sa aplice valorii introduse (seturile sunt descrise sub formular).
 
-* Setul "Toate" contine toate functiile: "add_three","multiply_by_ten","divide_by_two","divide_by_ten",multiply_by_third_part","cube","add_random","pow_four"
+* Setul "Toate" contine toate functiile: "add_three","multiply_by_ten","divide_by_two","divide_by_ten",
+multiply_by_third_part","cube","add_random","pow_four"
 * Setul "Set1" contine functiile: "add_three","multiply_by_ten","divide_by_two"
 * Setul "Set2" contine functiile: "multiply_by_third_part","cube","add_random","pow_four"
 * Setul "Set3" contine functiile: "add_three","divide_by_two","multiply_by_third_part","add_random"
