@@ -1,0 +1,48 @@
+Scriptul este alcatuit din doua clase si o sectiune prin care se realizeaza interactiunea cu userul (input/output).
+
+Clasa "Functions": contine colectia arbitrara de functii care primesc ca parametru numarul intreg "i" si intorc o valoare intreaga, in urma prelucrarii acestuia. Metodele si proprietatile acestei clase nu pot fi accesate din exterior.
+
+Clasa "OutputValues": are acces la metodele clasei "Functions" (prin mostenire) si contine metoda publica "get()" ce primeste ca parametri: 1) numarul intreg "i" si 2) setul de functii ce vor prelucra valoarea introdusa "i" si vor returna colectia de output-uri ceruta.
+
+Formularul pentru input dispune de un camp <select> prin care userul poate sa aleaga ce set de functii doreste sa aplice valorii introduse (seturile sunt descrise sub formular).
+
+* Setul "Toate" contine toate functiile: "add_three","multiply_by_ten","divide_by_two","divide_by_ten",multiply_by_third_part","cube","add_random","pow_four"
+* Setul "Set1" contine functiile: "add_three","multiply_by_ten","divide_by_two"
+* Setul "Set2" contine functiile: "multiply_by_third_part","cube","add_random","pow_four"
+* Setul "Set3" contine functiile: "add_three","divide_by_two","multiply_by_third_part","add_random"
+
+Exemplul 1:
+Input: i=4, set=Toate
+Output:
+	add_three: 7 
+	multiply_by_ten: 40 
+	divide_by_two: 2 
+	divide_by_ten: 0 
+	multiply_by_third_part: 4 
+	cube: 64 
+	add_random: 84 
+	pow_four: 256
+
+Exemplul 2:
+Input: i=7, set=Set1
+Output:
+	add_three: 10 
+	multiply_by_ten: 70 
+	divide_by_two: 3
+
+Exemplul 3:
+Input: i=12, set=Set2
+Output:
+	multiply_by_third_part: 48 
+	cube: 1728 
+	add_random: 27 
+	pow_four: 20736
+
+Exemplul 4:
+Input: i=15, set=Set3
+Output:
+	add_three: 18 
+	divide_by_two: 7 
+	multiply_by_third_part: 75 
+	add_random: 97
+
